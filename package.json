@@ -6,13 +6,17 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "express": "~4.0.0",
-    "static-favicon": "~1.0.0",
-    "morgan": "~1.0.0",
-    "cookie-parser": "~1.0.1",
+    "blueimp-file-upload-expressjs": "git+ssh://git@github.com:mamboer/blueimp-file-upload-expressjs.git",
     "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.1",
     "debug": "~0.7.4",
     "ejs": "~0.8.5",
-    "blueimp-file-upload-expressjs": "latest"
+    "express": "^4.11.2",
+    "express-session": "^1.10.2",
+    "lusca": "^1.0.2",
+    "morgan": "~1.0.0",
+    "multer": "^0.1.7",
+    "node-uuid": "^1.4.2",
+    "static-favicon": "~1.0.0"
   }
 }

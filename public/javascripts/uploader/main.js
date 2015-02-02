@@ -14,6 +14,12 @@
 $(function () {
     'use strict';
 
+    $.ajaxSetup({
+        headers:{
+            "x-csrf-token":$('#csrf').val()
+        }
+    });
+
     // Initialize the jQuery File Upload widget:
     $('#fileupload').fileupload({
         // Uncomment the following to send cross-domain cookies:
